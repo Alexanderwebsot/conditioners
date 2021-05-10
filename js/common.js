@@ -30,7 +30,7 @@ $(document).ready(function () {
       $(this).addClass('accordion-active');
     }
   })
-  $(".nav-list").on("click", 'a', function (event) {
+  $(".nav-list").on("click", '.scroll-nav', function (event) {
     event.preventDefault();
     $('.menu-modal').removeClass('menu-modal-active');
     let id  = $(this).attr('href'),
